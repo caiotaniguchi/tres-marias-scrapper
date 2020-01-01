@@ -1,0 +1,33 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "Web scrapper for Tres Marias powerplant data",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node --tls-min-v1.0 app/main.js",
+    "test": "nyc --reporter=text mocha 'app/**/test/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiotaniguchi/tres-marias-scrapper.git"
+  },
+  "author": "Caio Taniguchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiotaniguchi/tres-marias-scrapper/issues"
+  },
+  "homepage": "https://github.com/caiotaniguchi/tres-marias-scrapper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-datetime": "^1.5.0",
+    "mocha": "^6.2.2",
+    "nock": "^11.7.0",
+    "nyc": "^15.0.0"
+  }
+}
