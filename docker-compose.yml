@@ -1,0 +1,8 @@
+version: '3'
+services:
+  scrapper:
+    image: node:lts
+    entrypoint: tail -f /dev/null
+    volumes:
+      - .:/app
+    working_dir: /app
