@@ -1,0 +1,41 @@
+{
+  "url": "https://www.cemig.com.br/pt-br/a_cemig/nossos_negocios/usinas/Paginas/Tr%C3%AAs_Marias_dados.aspx",
+  "htmlElementsSelector": "table.ms-rteTable-default tbody td",
+  "columns": [
+    {
+      "name": "dia",
+      "type": "date",
+      "position": 0
+    },
+    {
+      "name": "vazao_afluente_m3s",
+      "type": "integer",
+      "position": 1
+    },
+    {
+      "name": "cota_inicial_m",
+      "type": "float",
+      "position": 2
+    },
+    {
+      "name": "volume_util_inicial_pct",
+      "type": "float",
+      "position": 3
+    },
+    {
+      "name": "vazao_defluente_m3s",
+      "type": "integer",
+      "position": 4
+    },
+    {
+      "name": "cota_final_m",
+      "type": "float",
+      "position": 5
+    },
+    {
+      "name": "volume_util_final_pct",
+      "type": "float",
+      "position": 6
+    }
+  ]
+}
